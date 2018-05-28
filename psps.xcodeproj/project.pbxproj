@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9ABC34BC20BBE95400F0E729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC34BB20BBE95400F0E729 /* AppDelegate.swift */; };
-		9ABC34BE20BBE95400F0E729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC34BD20BBE95400F0E729 /* ViewController.swift */; };
+		9ABC34BE20BBE95400F0E729 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC34BD20BBE95400F0E729 /* Camera.swift */; };
 		9ABC34C120BBE95400F0E729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC34BF20BBE95400F0E729 /* Main.storyboard */; };
 		9ABC34C320BBE95400F0E729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC34C220BBE95400F0E729 /* Assets.xcassets */; };
 		9ABC34C620BBE95400F0E729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABC34C420BBE95400F0E729 /* LaunchScreen.storyboard */; };
+		9ABC34CE20BBEACF00F0E729 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC34CD20BBEACF00F0E729 /* Memo.swift */; };
+		9ABC34D020BBEAF100F0E729 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC34CF20BBEAF100F0E729 /* GroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9ABC34B820BBE95400F0E729 /* psps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = psps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABC34BB20BBE95400F0E729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ABC34BD20BBE95400F0E729 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ABC34BD20BBE95400F0E729 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		9ABC34C020BBE95400F0E729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ABC34C220BBE95400F0E729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ABC34C520BBE95400F0E729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ABC34C720BBE95400F0E729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABC34CD20BBEACF00F0E729 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		9ABC34CF20BBEAF100F0E729 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				9ABC34BB20BBE95400F0E729 /* AppDelegate.swift */,
-				9ABC34BD20BBE95400F0E729 /* ViewController.swift */,
+				9ABC34BD20BBE95400F0E729 /* Camera.swift */,
+				9ABC34CF20BBEAF100F0E729 /* GroupView.swift */,
+				9ABC34CD20BBEACF00F0E729 /* Memo.swift */,
 				9ABC34BF20BBE95400F0E729 /* Main.storyboard */,
 				9ABC34C220BBE95400F0E729 /* Assets.xcassets */,
 				9ABC34C420BBE95400F0E729 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABC34BE20BBE95400F0E729 /* ViewController.swift in Sources */,
+				9ABC34CE20BBEACF00F0E729 /* Memo.swift in Sources */,
+				9ABC34BE20BBE95400F0E729 /* Camera.swift in Sources */,
+				9ABC34D020BBEAF100F0E729 /* GroupView.swift in Sources */,
 				9ABC34BC20BBE95400F0E729 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
 				INFOPLIST_FILE = psps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.cp2.psps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
 				INFOPLIST_FILE = psps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.cp2.psps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
